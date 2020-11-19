@@ -8,7 +8,7 @@ end
 
 
 def list_dwarves(array)
-  array.each.with_index {|e, index| puts "#{index}. e"}
+  array.each.with_index {|e, index| puts "#{index}. #{e}"}
 end
 
 # Use `each_with_index` to enumerate over the provided array
